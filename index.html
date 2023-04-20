@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        td{
+            border: 1px solid black;
+        }
+        th{
+            border: 1px solid black;
+        }
+    </style>
+    <title>My Website</title>
+</head>
+
+<body>
+    <div id="header">
+        <header>
+            <a href=""><img src="lastfm.png" width="100" height="100"><h1>Agnieszka Śliwińska</h1></a>
+            <nav>
+              <ul>
+                <li><a href="seriale.html">Moje ulubione seriale</a></li>
+                <li><a href="filmy.html">Moje ulubione filmy</a></li>
+              </ul>
+            </nav>
+          </header>
+    </div>
+<br></br>
+
+
+    <aside>
+        <h2>Agnieszka Śliwińska dane personalne</h2>
+ <p><strong>Nowa dęba,</strong> Podkarpackie</p>
+      </aside>
+<br></br>
+
+
+<section>
+    <h2>Artykuły</h2>
+    <br></br>
+
+    <article>
+        <h4>Kilka słów o mnie</h4>
+        <p><b>Uwielbiam górskie wycieczki oraz uprawę warzyw w przydomowym ogródku.</b></p>
+ <img src="piekne-ujecie-szczytu-gory.jpg"
+ width="600" height="450"/>
+    </article>
+<br></br>
+
+
+    <article>
+        <h4>Moje ulubione seriale</h4>
+ <ol>
+    <li><i>Better call Saul</i>
+    <li><i>Breaking Bad</i>
+    <li><i>Stranger things</i>
+ </ol>
+    </article>
+<br></br>
+
+
+    <article>
+        <h4>Moje ulubione filmy</h4>
+ <ul> 
+    <li>Platforma 
+        <ul>
+        <li><A href="https://www.filmweb.pl/film/Platforma-2019-839870">Platforma</A>
+        </ul>
+    <li>Dżungla
+        <ul>
+        <li><A href="https://www.filmweb.pl/film/D%C5%BCungla-2017-765956">Dżungla</A>
+        </ul>
+    <li>Zielona mila
+        <ul>
+        <li><A href="https://www.filmweb.pl/film/Zielona+mila-1999-862">Zielona mila</A>
+        </ul>
+ </ul>
+    </article>
+<br></br>
+
+
+    <article>
+        <h4>Moja ścieżka nauki</h4>
+<table style="border-collapse: collapse;">
+    <tr align="center">
+        <th>Data</th>
+        <th>Szkoła</th>
+    </tr>
+    <tr align="center">
+        <td>2018 - 2021</td>
+        <td>III Liceum Ogólnokształcące w Zamościu</td>
+    </tr>
+    <tr align="center">
+        <td>2022 - obecnie</td>
+        <td>Wyższa Szkoła Informatyki i Zarządzania w Rzeszowie</td>
+    </tr>
+</table>
+    </article>
+<br></br>
+
+
+    <article>
+        <h4>Pusta tabelka</h4>
+ <table style="border-collapse: collapse;">
+    <tr align="center">
+        <th width="100" height="100"></th>
+        <th width="100" height="100" rowspan="2"></th>
+        <th width="100" height="100"></th>
+    </tr>
+    <tr align="center">
+        <td width="100" height="100"></td>
+        <td width="100" height="100"></td>
+    </tr>
+    <tr align="center">
+        <td width="100" height="100"></td>
+        <td width="100" height="100" rowspan="2" colspan="2"></td>
+    </tr>
+    <tr align="center">
+        <td width="100" height="100"></td>
+    </tr>
+    <tr align="center">
+        <td width="100" height="100"colspan="2"></td>
+        <td width="100" height="100"></td>
+    </tr>
+
+ </table>
+    </article>
+<br></br>
+
+</section>
+
+
+<h4>Formularz</h4>
+<form action="/index.php" method="get">
+    <label for="imie">Podaj swoje imię: </label><br/>
+    <input type="text" name="imie" id="imie"><br/>
+    <label for="email">Podaj swój email: </label><br/>
+    <input type="text" name="email" id="email"><br/>
+    <label for="pass">Podaj swoje hasło: </label><br/>
+    <input type="password" name="pass" id="pass">
+    <p>Płeć: </p>
+    <label for="m">Mężczyzna: </label>
+    <input type="radio" name="płeć" id="m" value="m"><br/>
+    <label for="k">Kobieta: </label>
+    <input type="radio" name="płeć" id="k" value="k"><br/>
+    <p>Preferowany kontakt: </p>
+    <select name="kontakt">
+        <option value="tele">Telefoniczny</option>
+        <option value="email">Mailowy</option>
+        <option value="sms">SMS</option>
+        <option value="poczta">Poczta</option>
+    </select>
+    <p>Opis: </p>
+    <textarea name="opis" id="6" cols="40" rows="10">Napisz coś o sobie</textarea><br/>
+    <label><input type="checkbox" name="zgoda">Zapoznałem się z regulaminem.</label><br/>
+    <input type="submit" name="submit" value="Wyślij">
+</form>
+<br></br>
+
+
+    <div id="footer">
+        <footer>
+            © 2023-2024 AS
+        </footer>
+    </div>
+ 
+</body>
+</html>
